@@ -1,0 +1,23 @@
+{{!< default}}
+
+
+    {{#post}}
+    <div class="container">
+
+        <article>
+            <header>
+                <h1>{{title}}</h1>
+            </header>
+            <section>
+                {{content}}
+            </section>
+        </article>
+    </div>
+    
+
+    {{#if comments}}
+        <section class="article-comments gh-canvas">
+            {{comments}}
+        </section>
+    {{/if}}
+{{/post}}

@@ -1,0 +1,19 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">    
+    <a class="navbar-brand" href="{{@site.url}}">
+                        {{#if @site.logo}}
+                            <img src="{{@site.logo}}" alt="{{@site.title}}">
+                        {{else}}
+                            {{@site.title}}
+                        {{/if}}
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        {{navigation}}
+        {{navigation type="secondary"}}    
+    </div>
+  </div>
+</nav>
+
+
+</header>

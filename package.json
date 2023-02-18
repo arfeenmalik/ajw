@@ -1,0 +1,15 @@
+{
+    "name": "casper",
+    "description": "A clean, minimal default theme for the Ghost publishing platform",
+    "version": "5.4.5",
+    "author": {
+        "name": "Arfeen Ahmed Malik",
+        "email": "arfeen@ghost.org",
+        "url": "https://ghost.org/"
+    },
+    "config": {
+        "posts_per_page": 3
+    }
+    
+
+}
